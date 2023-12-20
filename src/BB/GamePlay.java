@@ -189,7 +189,7 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 		
 		if(arg0.getKeyCode() == KeyEvent.VK_RIGHT) {
 			if(playerX >= 600 ) {
-				playerX = 600; // to make sure our pedal doesn't go further than the border of our map
+				playerX = 600; // to make sure our pedal doesn't go further than the border of our map and go to the right when pressing the right arrow of the keyboard
 			} else {
 				moveRight();
 			}
@@ -197,13 +197,13 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 		
 		if(arg0.getKeyCode() == KeyEvent.VK_LEFT) {
 			if(playerX < 10 ) {
-				playerX = 10; // to make sure our pedal don't crossed 600
+				playerX = 10; // to make sure our pedal don't crossed 600 and go to the left when pressing the left arrow on the keyboard
 			} else {
 				moveLeft();
 			}
 		}
 		
-		if(arg0.getKeyCode()== KeyEvent.VK_ENTER) {
+		if(arg0.getKeyCode()== KeyEvent.VK_ENTER) { // to restart the game when pressing the enter button
 		if(!play) {
 			play = true;
 			ballposX = 120;
