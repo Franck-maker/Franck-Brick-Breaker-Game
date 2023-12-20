@@ -32,6 +32,8 @@ public class MapGenerator {
 					
 					// divide the graphic
 					
+					
+					
 					g.setStroke(new BasicStroke(3));
 					g.setColor(Color.green);
 					g.drawRect(j*brickWidth +80, i*brickHeight+50, brickWidth, brickHeight);

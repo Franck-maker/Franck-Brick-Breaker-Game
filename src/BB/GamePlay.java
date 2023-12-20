@@ -95,12 +95,12 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 			play = false;
 			ballXdir = 0;
 			ballYdir = 0;
-			g.setColor(Color.RED);
+			g.setColor(Color.GREEN);
 			g.setFont(new Font("serif", Font.BOLD, 30));
 			g.drawString("You Won, Score: " +score, 190,300);
 			
 			g.setFont(new Font("serif", Font.BOLD, 20));
-			g.drawString("Press Enter to restart." + score,  230, 350);
+			g.drawString("Press Enter to restart ;" + score,  230, 350);
 		}
 		
 		// displaying the gameover message if the ball didn't bounce from the pedal
