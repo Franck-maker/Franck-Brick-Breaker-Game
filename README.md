@@ -3,7 +3,6 @@
 Brick Breaker is a classic arcade game implemented in Java. The game challenges players to break all the bricks on the screen using a ball and a paddle while preventing the ball from falling off the screen.
 
 [![image](https://github.com/user-attachments/assets/67576fec-f125-47d5-be9b-edafb843db5c)](https://www.linkedin.com/posts/franck-abdiel_r%C3%A9alisation-du-clone-du-jeu-brick-breaker-activity-7184482440944451585-Vt__?utm_source=share&utm_medium=member_desktop)
-
 ## Click on the image to see a demo
 
 
